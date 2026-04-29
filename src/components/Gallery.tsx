@@ -3,14 +3,10 @@ import { motion, AnimatePresence } from 'motion/react';
 import { X, ZoomIn } from 'lucide-react';
 
 const images = [
-  { id: 11, url: '/11.jpg', fallback: 'https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=800&auto=format&fit=crop', title: 'The Beginning' },
-  { id: 12, url: '/12.jpg', fallback: 'https://images.unsplash.com/photo-1522673607200-164d1f624698?q=80&w=800&auto=format&fit=crop', title: 'Our Journey' },
-  { id: 13, url: '/13.jpg', fallback: 'https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80&w=800&auto=format&fit=crop', title: 'A Thousand Words' },
-  { id: 14, url: '/14.jpg', fallback: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=800&auto=format&fit=crop', title: 'Endless Love' },
-  { id: 15, url: '/15.jpg', fallback: 'https://images.unsplash.com/photo-1532712938310-34cb3982ef74?q=80&w=800&auto=format&fit=crop', title: 'Cherished Moments' },
-  { id: 16, url: '/16.jpg', fallback: 'https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=800&auto=format&fit=crop', title: 'Together Forever' },
-  { id: 17, url: '/17.jpg', fallback: 'https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=800&auto=format&fit=crop', title: 'Endless Bond' },
-  { id: 18, url: '/18.jpg', fallback: 'https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=800&auto=format&fit=crop', title: 'Always & Forever' },
+  { id: 1, url: '/Screenshot 2026-04-29 192215.png', fallback: 'https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=800&auto=format&fit=crop', title: 'The Beginning' },
+  { id: 2, url: '/1.png', fallback: 'https://images.unsplash.com/photo-1522673607200-164d1f624698?q=80&w=800&auto=format&fit=crop', title: 'Our Journey' },
+  { id: 3, url: '/2.png', fallback: 'https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80&w=800&auto=format&fit=crop', title: 'A Thousand Words' },
+  { id: 4, url: '/3.png', fallback: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=800&auto=format&fit=crop', title: 'Endless Love' },
 ];
 
 export const Gallery: React.FC = () => {
@@ -71,7 +67,7 @@ export const Gallery: React.FC = () => {
           {marqueeImages.map((image, index) => (
             <div
               key={`${image.id}-${index}`}
-              className="relative flex-none w-[75vw] sm:w-[45vw] lg:w-[28vw] aspect-[3/4] sm:aspect-[4/5] rounded-[2rem] sm:rounded-[2.5rem] overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.1)] group cursor-pointer border-[8px] sm:border-[10px] border-white/90 bg-brand-champagne transform transition-all duration-700 hover:-translate-y-4 hover:shadow-[0_40px_60px_rgba(251,113,133,0.2)]"
+              className="relative flex-none w-[75vw] sm:w-[45vw] lg:w-[28vw] aspect-[3/4] sm:aspect-[4/5] rounded-[2rem] sm:rounded-[2.5rem] overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.1)] group cursor-pointer border-[8px] sm:border-[10px] border-white/90 bg-brand-champagne transform transition-all duration-700 hover:-translate-y-4 hover:shadow-[0_40px_60px_rgba(115,130,160,0.2)]"
               onClick={() => setSelectedImage(image.url)}
             >
               <img

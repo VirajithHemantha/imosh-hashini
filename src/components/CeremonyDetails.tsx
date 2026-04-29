@@ -64,8 +64,8 @@ export const CeremonyDetails: React.FC = () => {
                   <MapPin className="w-5 h-5 text-brand-sakura-deep group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div>
-                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-sakura-deep transition-colors duration-500">The Kingsbury Hotel</h4>
-                  <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">Colombo, Sri Lanka</p>
+                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-sakura-deep transition-colors duration-500">Marino Beach Colombo</h4>
+                  <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">Colombo 03, Sri Lanka</p>
                 </div>
               </div>
             </div>
@@ -86,9 +86,9 @@ export const CeremonyDetails: React.FC = () => {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-brand-champagne/40 rounded-[2rem] sm:rounded-[3rem] blur-2xl -z-20" />
 
             {/* Main Creative Image Frame */}
-            <div className="relative aspect-[3/4] sm:aspect-[4/5] rounded-[2rem] sm:rounded-[3rem] overflow-hidden border-[6px] sm:border-[8px] border-white shadow-[0_20px_50px_rgba(251,113,133,0.2)] bg-white group">
+            <div className="relative aspect-[3/4] sm:aspect-[4/5] rounded-[2rem] sm:rounded-[3rem] overflow-hidden border-[6px] sm:border-[8px] border-white shadow-[0_20px_50px_rgba(115,130,160,0.2)] bg-white group">
               <img
-                src="/12.jpg"
+                src="/2.png"
                 onError={(e) => {
                   e.currentTarget.src = "https://images.unsplash.com/photo-1519225421980-715cb02151ff?auto=format&fit=crop&q=80&w=800&h=1000";
                   e.currentTarget.onerror = null;
@@ -105,7 +105,7 @@ export const CeremonyDetails: React.FC = () => {
               whileInView={{ opacity: 1, x: 0, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.6, duration: 1, ease: "easeOut" }}
-              className="absolute -bottom-6 sm:-bottom-16 -left-2 sm:-left-16 bg-white/85 backdrop-blur-xl p-4 sm:p-10 shadow-[0_30px_60px_rgba(251,113,133,0.15)] rounded-2xl max-w-[200px] sm:max-w-[340px] border border-white"
+              className="absolute -bottom-6 sm:-bottom-16 -left-2 sm:-left-16 bg-white/85 backdrop-blur-xl p-4 sm:p-10 shadow-[0_30px_60px_rgba(115,130,160,0.15)] rounded-2xl max-w-[200px] sm:max-w-[340px] border border-white"
             >
               <div className="absolute inset-x-8 -top-px h-[2px] bg-gradient-to-r from-transparent via-brand-sakura-deep/60 to-transparent" />
               <div className="relative">

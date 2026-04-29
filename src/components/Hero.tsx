@@ -19,14 +19,15 @@ export const Hero: React.FC = () => {
         style={{ y: y1, scale }}
       >
         <img
-          src="/18.jpg"
-          alt="Dewmi and Charuka"
+          src="/Screenshot 2026-04-29 192215.png"
+          alt="Dimalka and Dinindu"
           className="w-full h-full object-cover opacity-90"
           style={{ objectPosition: 'center 20%' }}
         />
-        {/* Soft elegant gradient overlays to ensure text readability & premium feel */}
-        <div className="absolute inset-0 bg-gradient-to-t from-brand-ivory via-brand-ivory/30 to-brand-ivory/50" />
-        <div className="absolute inset-0 bg-gradient-to-b from-brand-sakura/20 via-transparent to-brand-sakura/10 mix-blend-overlay" />
+        {/* Enhanced elegant blue/grey gradient overlays */}
+        <div className="absolute inset-0 bg-gradient-to-t from-brand-ivory via-brand-ivory/60 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-brand-sakura/30 via-transparent to-brand-sakura/20 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-[#7382a0]/10 mix-blend-overlay" />
       </motion.div>
 
       {/* Persistent subtle falling petals in background */}
@@ -61,10 +62,10 @@ export const Hero: React.FC = () => {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[140%] bg-white/40 blur-[50px] sm:blur-[80px] rounded-full pointer-events-none" />
 
             <h1 className="relative text-6xl sm:text-[7rem] lg:text-[9.5rem] font-display text-stone-800 leading-[1.1] sm:leading-[0.9] drop-shadow-sm">
-              Dewmi <br className="sm:hidden" />
+              Kavini <br className="sm:hidden" />
               <span className="text-brand-sakura-deep italic font-light mx-2 sm:mx-6 text-5xl sm:text-[6rem] lg:text-[8rem] inline-block -translate-y-2 sm:-translate-y-6">&</span>
               <br className="sm:hidden" />
-              Charuka
+              Dasun
             </h1>
           </div>
 

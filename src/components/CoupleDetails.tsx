@@ -21,7 +21,7 @@ export const CoupleDetails: React.FC = () => {
             <div className="w-12 sm:w-20 h-[1px] bg-gradient-to-l from-transparent to-brand-sakura-deep/60" />
           </div>
           <h2 className="text-5xl sm:text-7xl font-display text-stone-800 tracking-tight drop-shadow-sm">
-            Dewmi <span className="italic text-brand-sakura-deep font-light mx-2">&</span> Charuka
+            Kavini <span className="italic text-brand-sakura-deep font-light mx-2">&</span> Dasun
           </h2>
         </motion.div>
       </div>
@@ -37,7 +37,7 @@ export const CoupleDetails: React.FC = () => {
         >
           <div className="mb-4 flex flex-col items-center lg:items-end">
             <span className="text-brand-sakura-deep uppercase tracking-[0.4em] text-[10px] font-bold mb-3 block">The Groom</span>
-            <h3 className="text-4xl sm:text-5xl font-display text-stone-800 mb-2 drop-shadow-sm">Charuka</h3>
+            <h3 className="text-4xl sm:text-5xl font-display text-stone-800 mb-2 drop-shadow-sm">Dasun</h3>
             <p className="text-stone-500/90 font-serif italic text-base sm:text-lg">Son of Mr. & Mrs. Perera</p>
           </div>
           <div className="hidden lg:flex justify-end mt-8">
@@ -56,14 +56,14 @@ export const CoupleDetails: React.FC = () => {
           {/* Glowing border effect */}
           <div className="absolute -inset-2 bg-gradient-to-b from-brand-sakura-deep/30 to-transparent rounded-[12rem_12rem_1rem_1rem] blur-xl opacity-60 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
 
-          <div className="relative w-[300px] h-[400px] sm:w-[360px] sm:h-[500px] lg:w-[420px] lg:h-[580px] rounded-[12rem_12rem_16px_16px] overflow-hidden border-[6px] border-white/90 shadow-[0_20px_50px_rgba(251,113,133,0.2)] bg-brand-champagne mx-auto z-10 transition-transform duration-700 group-hover:-translate-y-2">
+          <div className="relative w-[300px] h-[400px] sm:w-[360px] sm:h-[500px] lg:w-[420px] lg:h-[580px] rounded-[12rem_12rem_16px_16px] overflow-hidden border-[6px] border-white/90 shadow-[0_20px_50px_rgba(115,130,160,0.2)] bg-brand-champagne mx-auto z-10 transition-transform duration-700 group-hover:-translate-y-2">
             <img
-              src="/17.jpg"
+              src="/1.png"
               onError={(e) => {
                 e.currentTarget.src = "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=800&h=1000";
                 e.currentTarget.onerror = null;
               }}
-              alt="Dewmi and Charuka"
+              alt="Kavini and Dasun"
               className="w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-105"
             />
             {/* Elegant inner shadow & overlay */}
@@ -73,7 +73,7 @@ export const CoupleDetails: React.FC = () => {
 
           {/* Floating Sparkles decoration */}
           <Sparkles className="absolute top-8 left-0 w-8 h-8 text-brand-sakura-deep animate-pulse drop-shadow-sm z-20" />
-          <Sparkles className="absolute bottom-10 -right-4 w-6 h-6 text-[#ffb3c6] animate-pulse delay-300 drop-shadow-sm z-20" />
+          <Sparkles className="absolute bottom-10 -right-4 w-6 h-6 text-[#cbd5e1] animate-pulse delay-300 drop-shadow-sm z-20" />
         </motion.div>
 
         {/* Mobile divider between image and groom */}
@@ -91,7 +91,7 @@ export const CoupleDetails: React.FC = () => {
         >
           <div className="mb-4 flex flex-col items-center lg:items-start">
             <span className="text-brand-sakura-deep uppercase tracking-[0.4em] text-[10px] font-bold mb-3 block">The Bride</span>
-            <h3 className="text-4xl sm:text-5xl font-display text-stone-800 mb-2 drop-shadow-sm">Dewmi</h3>
+            <h3 className="text-4xl sm:text-5xl font-display text-stone-800 mb-2 drop-shadow-sm">Kavini</h3>
             <p className="text-stone-500/90 font-serif italic text-base sm:text-lg">Daughter of Mr. & Mrs. Silva</p>
           </div>
           <div className="hidden lg:flex justify-start mt-8">

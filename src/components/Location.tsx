@@ -3,9 +3,9 @@ import { motion } from 'motion/react';
 import { MapPin, Navigation, Compass, Map } from 'lucide-react';
 
 export const Location: React.FC = () => {
-  const venueAddress = "The Kingsbury Hotel, Colombo, Sri Lanka";
-  const mapUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.774438992095!2d79.84074217506979!3d6.917409293077303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2596131c9444d%3A0x28972e70335e9858!2sThe%20Kingsbury%20Colombo!5e0!3m2!1sen!2slk!4v1714734892348!5m2!1sen!2slk`;
-  const liveLocationUrl = "https://maps.app.goo.gl/yQVQ2S2jDXZAznYQ8";
+   const venueAddress = "Marino Beach Colombo, Sri Lanka";
+  const mapUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.9168925435!2d79.8519441!3d6.8993889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259427b372605%3A0x7d013f9c6d36e2f1!2sMarino%20Beach%20Colombo!5e0!3m2!1sen!2slk!4v1714734892348!5m2!1sen!2slk`;
+  const liveLocationUrl = "https://maps.app.goo.gl/kDgnopLnmwgrkGju5";
 
   return (
     <div className="max-w-[85rem] mx-auto px-6 relative py-12">
@@ -45,8 +45,8 @@ export const Location: React.FC = () => {
                   <MapPin className="text-brand-sakura-deep w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-2xl font-serif text-stone-800 mb-1">The Kingsbury Hotel</p>
-                  <p className="text-[11px] uppercase tracking-[0.2em] font-medium text-stone-400 leading-relaxed mb-6">Colombo, Sri Lanka</p>
+                  <p className="text-2xl font-serif text-stone-800 mb-1">Marino Beach Colombo</p>
+                  <p className="text-[11px] uppercase tracking-[0.2em] font-medium text-stone-400 leading-relaxed mb-6">Colombo 03, Sri Lanka</p>
 
                   <p className="text-stone-500/90 italic font-serif text-lg leading-relaxed max-w-sm mb-10 pl-4 border-l-[1.5px] border-brand-sakura/40">
                     "A serene and elegant setting where we will begin our new chapter together."
@@ -85,7 +85,7 @@ export const Location: React.FC = () => {
             <div className="absolute inset-0 bg-brand-sakura/10 mix-blend-multiply pointer-events-none z-20 group-hover/map:opacity-0 transition-opacity duration-1000" />
 
             <iframe
-              title="The Kingsbury Location"
+              title="Marino Beach Location"
               src={mapUrl}
               width="100%"
               height="100%"

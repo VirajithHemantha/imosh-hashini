@@ -6,19 +6,20 @@
   --font-sans: "Inter", sans-serif;
   --font-display: "Cormorant Garamond", serif;
 
-  --color-brand-pink: #fff1f2;
-  --color-brand-blush: #fecdd3;
-  --color-brand-sakura: #ffb7c5;
-  --color-brand-sakura-deep: #fb7185;
+  --color-brand-pink: #f0f2f5;
+  --color-brand-blush: #dce1e9;
+  --color-brand-sakura: #a2aec4;
+  --color-brand-sakura-deep: #7382a0;
   --color-brand-gold: #b4975a;
   --color-brand-gold-light: #d4af37;
-  --color-brand-champagne: #fff5f7;
-  --color-brand-ivory: #fffafb;
+  --color-brand-champagne: #dae1eb;
+  --color-brand-ivory: #e9eff5;
 }
 
 @layer base {
   body {
     @apply font-sans bg-brand-ivory text-stone-800 antialiased;
+    background-image: url('https://www.transparenttextures.com/patterns/natural-paper.png');
   }
 
   h1,
@@ -50,10 +51,10 @@
 }
 
 .wax-seal {
-  background: radial-gradient(circle at 30% 30%, #ff8fa3, #fb6f92, #ff4d6d);
+  background: radial-gradient(circle at 30% 30%, #a2aec4, #7382a0, #53617e);
   box-shadow:
-    0 8px 25px rgba(255, 77, 109, 0.4),
-    inset -3px -3px 8px rgba(135, 0, 40, 0.3),
+    0 8px 25px rgba(115, 130, 160, 0.4),
+    inset -3px -3px 8px rgba(60, 74, 102, 0.3),
     inset 3px 3px 8px rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.4);
 }

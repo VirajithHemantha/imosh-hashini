@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Music, Music2, Volume2, VolumeX } from 'lucide-react';
 import { FloatingPetals } from './components/FloatingPetals';
-import { Envelope } from './components/Envelope';
 import { Hero } from './components/Hero';
 import { Countdown } from './components/Countdown';
 import { CeremonyDetails } from './components/CeremonyDetails';
@@ -12,13 +11,22 @@ import { Gallery } from './components/Gallery';
 import { Location } from './components/Location';
 import { RSVPForm } from './components/RSVPForm';
 import { Footer } from './components/Footer';
+import { IntroVideo } from './components/IntroVideo';
 
 export default function App() {
+  const [showIntro, setShowIntro] = useState(true);
   const [showMain, setShowMain] = useState(false);
   const [isMusicPlaying, setIsMusicPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   const weddingDate = new Date('2026-08-20T09:51:00');
+
+  const startMusic = () => {
+    if (audioRef.current && !isMusicPlaying) {
+      audioRef.current.play().catch(err => console.log("Audio play blocked: ", err));
+      setIsMusicPlaying(true);
+    }
+  };
 
   const toggleMusic = () => {
     if (audioRef.current) {
@@ -43,8 +51,8 @@ export default function App() {
       />
 
       <AnimatePresence mode="wait">
-        {!showMain ? (
-          <Envelope key="envelope" onComplete={() => setShowMain(true)} />
+        {showIntro ? (
+          <IntroVideo key="intro" onComplete={() => { setShowIntro(false); setShowMain(true); startMusic(); }} />
         ) : (
           <motion.main
             key="main"
@@ -66,11 +74,11 @@ export default function App() {
               <Hero />
             </section>
 
-            <section id="countdown" className="py-16 sm:py-32 relative overflow-hidden bg-brand-champagne/30">
+            <section id="countdown" className="py-16 sm:py-32 relative overflow-hidden bg-gradient-to-br from-brand-champagne via-brand-ivory to-brand-champagne">
               {/* Premium Background Ambient Glows */}
               <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
-                <div className="absolute -top-[20%] -right-[10%] w-[50%] h-[70%] bg-brand-sakura/30 blur-[120px] rounded-full" />
-                <div className="absolute -bottom-[20%] -left-[10%] w-[50%] h-[70%] bg-brand-sakura-deep/10 blur-[120px] rounded-full" />
+                <div className="absolute -top-[20%] -right-[10%] w-[50%] h-[70%] bg-brand-sakura/40 blur-[120px] rounded-full" />
+                <div className="absolute -bottom-[20%] -left-[10%] w-[50%] h-[70%] bg-brand-sakura-deep/20 blur-[120px] rounded-full" />
               </div>
               
               <div className="relative z-10 max-w-5xl mx-auto px-6 flex flex-col items-center text-center">
@@ -92,21 +100,25 @@ export default function App() {
               </div>
             </section>
 
-            <section id="couple" className="py-16 sm:py-32 bg-white">
+            <section id="couple" className="py-16 sm:py-32 bg-gradient-to-b from-brand-ivory to-brand-champagne relative overflow-hidden">
+              <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-[0.03] pointer-events-none" />
               <CoupleDetails />
             </section>
 
-            <section id="ceremony" className="py-16 sm:py-32 bg-brand-ivory">
+            <section id="ceremony" className="py-16 sm:py-32 bg-brand-champagne/40 relative">
+              <div className="absolute top-1/2 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-brand-sakura-deep/20 to-transparent" />
               <CeremonyDetails />
             </section>
 
             {/* Timeline section removed entirely as requested */}
 
-            <section id="gallery" className="py-16 sm:py-32 bg-brand-ivory">
+            <section id="gallery" className="py-16 sm:py-32 bg-gradient-to-b from-brand-ivory via-brand-champagne/40 to-brand-ivory relative overflow-hidden">
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-[1px] bg-brand-sakura-deep/10" />
               <Gallery />
             </section>
 
-            <section id="location" className="py-16 sm:py-32 bg-white">
+            <section id="location" className="py-16 sm:py-32 bg-gradient-to-b from-brand-champagne/20 to-brand-ivory relative">
+              <div className="absolute -top-[10%] -right-[5%] w-[40%] h-[60%] bg-brand-sakura/20 blur-[100px] rounded-full pointer-events-none" />
               <Location />
             </section>
 
