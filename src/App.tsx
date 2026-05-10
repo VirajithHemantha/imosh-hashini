@@ -12,6 +12,7 @@ import { Location } from './components/Location';
 import { RSVPForm } from './components/RSVPForm';
 import { Footer } from './components/Footer';
 import { IntroVideo } from './components/IntroVideo';
+import { Gallery } from './components/Gallery';
 import { HeroContent } from './components/HeroContent';
 import { CornerFlowers } from './components/CornerFlowers';
 
@@ -78,27 +79,27 @@ export default function App() {
 
             <HeroContent />
 
-            <section id="countdown" className="py-16 sm:py-32 relative overflow-hidden bg-gradient-to-br from-[#064E3B] via-[#065F46] to-[#022C22]">
+            <section id="countdown" className="py-16 sm:py-32 relative overflow-hidden bg-gradient-to-br from-[#1D3557] via-[#457B9D] to-[#2C3E50]">
               <CornerFlowers position="top-left" opacity={0.4} scale={1.2} />
               <CornerFlowers position="bottom-right" opacity={0.4} scale={1.2} />
               {/* Premium Background Ambient Glows */}
               <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
                 <div className="absolute -top-[20%] -right-[10%] w-[50%] h-[70%] bg-white/5 blur-[120px] rounded-full" />
-                <div className="absolute -bottom-[20%] -left-[10%] w-[50%] h-[70%] bg-brand-emerald-light/10 blur-[120px] rounded-full" />
+                <div className="absolute -bottom-[20%] -left-[10%] w-[50%] h-[70%] bg-brand-primary-light/10 blur-[120px] rounded-full" />
               </div>
               
               <div className="relative z-10 max-w-5xl mx-auto px-6 flex flex-col items-center text-center">
                 <div className="inline-flex items-center gap-4 mb-6">
-                  <div className="w-12 h-[1px] bg-gradient-to-r from-transparent to-brand-emerald-light/60" />
-                  <span className="text-brand-emerald-light uppercase tracking-[0.5em] text-[11px] font-semibold font-sans drop-shadow-sm">The Final Countdown</span>
-                  <div className="w-12 h-[1px] bg-gradient-to-l from-transparent to-brand-emerald-light/60" />
+                  <div className="w-12 h-[1px] bg-gradient-to-r from-transparent to-brand-primary-light/60" />
+                  <span className="text-brand-primary-light uppercase tracking-[0.5em] text-[11px] font-semibold font-sans drop-shadow-sm">The Final Countdown</span>
+                  <div className="w-12 h-[1px] bg-gradient-to-l from-transparent to-brand-primary-light/60" />
                 </div>
                 
                 <h2 className="text-5xl sm:text-7xl font-display text-white tracking-tight mb-6 drop-shadow-sm">
-                  Until We Say <span className="italic text-brand-emerald-light font-light">"I Do"</span>
+                  Until We Say <span className="italic text-brand-primary-light font-light">"I Do"</span>
                 </h2>
                 
-                <p className="text-lg sm:text-xl font-serif italic text-emerald-100/80 mb-12 sm:mb-16 max-w-2xl text-center leading-relaxed">
+                <p className="text-lg sm:text-xl font-serif italic text-blue-100/80 mb-12 sm:mb-16 max-w-2xl text-center leading-relaxed">
                   Time is standing still as we eagerly await the moment our forever begins.
                 </p>
 
@@ -121,11 +122,13 @@ export default function App() {
 
             {/* Timeline section removed entirely as requested */}
 
-            {/* Gallery section removed */}
+            <section id="gallery" className="bg-brand-ivory">
+              <Gallery />
+            </section>
 
-            <section id="location" className="py-16 sm:py-32 bg-gradient-to-br from-[#064E3B] to-[#022C22] relative overflow-hidden">
+            <section id="location" className="py-16 sm:py-32 bg-gradient-to-br from-[#1D3557] to-[#2C3E50] relative overflow-hidden">
               <CornerFlowers position="bottom-left" opacity={0.4} scale={1.2} />
-              <div className="absolute -top-[10%] -right-[5%] w-[40%] h-[60%] bg-brand-emerald/10 blur-[100px] rounded-full pointer-events-none" />
+              <div className="absolute -top-[10%] -right-[5%] w-[40%] h-[60%] bg-brand-primary/10 blur-[100px] rounded-full pointer-events-none" />
               <Location />
             </section>
 
