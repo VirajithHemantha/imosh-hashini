@@ -22,7 +22,7 @@ export const Footer: React.FC = () => {
             <path id="circlePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="transparent" />
             <text>
               <textPath href="#circlePath" className="text-[8.5px] uppercase tracking-[0.2em] fill-brand-primary font-sans font-bold">
-                IMOSH & HASHINI'S WEDDING • WITH LOVE •
+                IMOSH & HASHINI'S ENGAGEMENT • WITH LOVE •
               </textPath>
             </text>
           </svg>
@@ -51,7 +51,7 @@ export const Footer: React.FC = () => {
             With all our love 💕
           </div>
           <div className="text-[9px] text-stone-300 tracking-widest uppercase font-medium">
-            © 2026 Imosh & Hashini's Wedding
+            © 2026 Imosh & Hashini's Engagement
           </div>
         </div>
       </div>

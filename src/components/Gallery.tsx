@@ -52,7 +52,7 @@ export const Gallery: React.FC = () => {
             <div className="w-12 sm:w-24 h-[1px] bg-gradient-to-l from-transparent to-brand-gold-deep/60" />
           </div>
           <h2 className="text-5xl sm:text-7xl lg:text-[5.5rem] font-display text-stone-800 tracking-tight drop-shadow-sm leading-tight">
-            Our Wedding <span className="italic font-light text-brand-gold-deep">Gallery</span>
+            Our Engagement <span className="italic font-light text-brand-gold-deep">Gallery</span>
           </h2>
         </motion.div>
       </div>

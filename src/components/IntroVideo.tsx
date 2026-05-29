@@ -127,26 +127,26 @@ export const IntroVideo: React.FC<IntroVideoProps> = ({ onComplete }) => {
               <div className="absolute top-0 right-0 w-[200%] h-[200%] bg-brand-primary-light/5 blur-[100px] rounded-full pointer-events-none" />
 
               <h2 className="relative text-brand-primary-muted uppercase tracking-[0.7em] text-[10px] sm:text-xs font-bold mb-4 sm:mb-8 drop-shadow-md">
-                A Grand Celebration
+                Engagement Invitation
               </h2>
               <h1 className="relative text-6xl sm:text-[9rem] font-display text-white tracking-widest mb-4 drop-shadow-[0_10px_40px_rgba(0,0,0,0.5)]">
                 IMOSH & HASHINI
               </h1>
               <div className="w-32 h-[1.5px] bg-gradient-to-r from-transparent via-brand-primary to-transparent mx-auto mt-10 shadow-[0_0_15px_rgba(70,130,180,0.5)]" />
             </motion.div>
-
+ 
             <motion.button
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 1, duration: 1 }}
               onClick={handleStart}
               disabled={!isVideoReady}
-              className="group relative px-20 py-6 bg-white/5 hover:bg-white/10 backdrop-blur-3xl border border-white/20 rounded-full transition-all duration-700 hover:scale-110 active:scale-95 shadow-[0_20px_50px_rgba(0,0,0,0.4)] overflow-hidden disabled:opacity-50 disabled:cursor-wait disabled:hover:scale-100"
+              className="group relative px-12 sm:px-20 py-6 bg-white/5 hover:bg-white/10 backdrop-blur-3xl border border-white/20 rounded-full transition-all duration-700 hover:scale-110 active:scale-95 shadow-[0_20px_50px_rgba(0,0,0,0.4)] overflow-hidden disabled:opacity-50 disabled:cursor-wait disabled:hover:scale-100"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-brand-primary/20 via-brand-primary-deep/10 to-brand-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
               <div className="relative flex items-center gap-5">
-                <span className="text-white tracking-[0.5em] font-bold text-[11px] uppercase drop-shadow-md">
-                  {isVideoReady ? 'Enter Invitation' : 'Loading…'}
+                <span className="text-white tracking-[0.3em] font-bold text-[10px] uppercase drop-shadow-md">
+                  {isVideoReady ? 'Enter Engagement Invitation' : 'Loading…'}
                 </span>
                 <Play className="w-4 h-4 text-brand-primary-light fill-brand-primary-light transition-transform group-hover:scale-125" />
               </div>

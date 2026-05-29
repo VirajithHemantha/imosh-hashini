@@ -13,7 +13,7 @@ export const Hero: React.FC = () => {
       >
         <img
           src="/1.png"
-          alt="Wedding Invitation Card"
+          alt="Engagement Invitation Card"
           className="h-full w-full object-contain max-h-screen select-none pointer-events-none"
         />
       </motion.div>

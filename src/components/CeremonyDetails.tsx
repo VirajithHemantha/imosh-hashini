@@ -25,11 +25,11 @@ export const CeremonyDetails: React.FC = () => {
 
             <h2 className="text-5xl sm:text-6xl lg:text-7xl font-display text-stone-800 mb-8 leading-[1.1] drop-shadow-sm">
               Celebrating <br />
-              <span className="italic font-light text-brand-primary">Our Wedding Day</span>
+              <span className="italic font-light text-brand-primary">Our Engagement Day</span>
             </h2>
 
             <p className="text-stone-800 font-serif text-lg sm:text-xl leading-relaxed mx-auto max-w-xl">
-              We are honored to invite you to join us in celebrating our wedding day at a grand gathering filled with love, laughter, and beautiful memories.
+              We are honored to invite you to join us in celebrating our engagement at a grand gathering filled with love, laughter, and beautiful memories.
             </p>
           </div>
 

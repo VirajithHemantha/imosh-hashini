@@ -18,7 +18,7 @@ export const HeroContent: React.FC = () => {
         >
           <img
             src="/1.png"
-            alt="Wedding Invitation"
+            alt="Engagement Invitation"
             className="w-full h-full object-cover select-none pointer-events-none"
           />
         </motion.div>

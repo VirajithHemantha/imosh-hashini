@@ -220,7 +220,7 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
               >
                 <div className="flex flex-col items-center gap-2">
                   <p className="text-[#fffdf9] font-serif italic text-2xl sm:text-4xl font-light tracking-wide text-shadow-xl drop-shadow-[0_8px_16px_rgba(10,20,50,0.8)]">
-                    Wedding Invitation
+                    Engagement Invitation
                   </p>
                   <p className="text-[#3A86C8] font-sans text-[10px] sm:text-xs tracking-[0.5em] uppercase font-bold drop-shadow-md">
                     Break the seal to reveal
