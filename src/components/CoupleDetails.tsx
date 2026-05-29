@@ -38,7 +38,7 @@ export const CoupleDetails: React.FC = () => {
           <div className="mb-4 flex flex-col items-center lg:items-end">
             <span className="text-brand-primary uppercase tracking-[0.4em] text-[10px] font-bold mb-3 block">The Groom</span>
             <h3 className="text-4xl sm:text-5xl font-display text-stone-800 mb-2 drop-shadow-sm">Imosh</h3>
-            <p className="text-stone-500/90 font-serif italic text-sm sm:text-base text-center lg:text-right max-w-xs leading-relaxed">
+            <p className="text-stone-800 font-serif italic text-sm sm:text-base text-center lg:text-right max-w-xs leading-relaxed">
               Son of Mr. J.C. Weerasinghe<br />& Mrs. Priyanga
             </p>
           </div>
@@ -64,7 +64,7 @@ export const CoupleDetails: React.FC = () => {
           <div className="mb-4 flex flex-col items-center lg:items-start">
             <span className="text-brand-primary uppercase tracking-[0.4em] text-[10px] font-bold mb-3 block">The Bride</span>
             <h3 className="text-4xl sm:text-5xl font-display text-stone-800 mb-2 drop-shadow-sm">Hashini</h3>
-            <p className="text-stone-500/90 font-serif italic text-sm sm:text-base text-center lg:text-left max-w-xs leading-relaxed">
+            <p className="text-stone-800 font-serif italic text-sm sm:text-base text-center lg:text-left max-w-xs leading-relaxed">
               Daughter of Mr. D. B. Chinthaka Dewarathne<br />& Mrs. Ayesha
             </p>
           </div>

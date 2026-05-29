@@ -49,7 +49,7 @@ export const Timeline: React.FC = () => {
               {/* Content */}
               <div className={`flex-1 text-center ${index % 2 === 0 ? 'md:text-left' : 'md:text-right'}`}>
                 <h4 className="text-xl font-display text-stone-800 mb-1">{event.title}</h4>
-                <p className="text-stone-400 text-sm leading-relaxed">{event.desc}</p>
+                <p className="text-stone-700 text-sm leading-relaxed">{event.desc}</p>
               </div>
             </motion.div>
           ))}

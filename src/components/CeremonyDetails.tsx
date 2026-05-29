@@ -28,7 +28,7 @@ export const CeremonyDetails: React.FC = () => {
               <span className="italic font-light text-brand-primary">Our Wedding Day</span>
             </h2>
 
-            <p className="text-stone-500/90 font-serif text-lg sm:text-xl leading-relaxed mx-auto max-w-xl">
+            <p className="text-stone-800 font-serif text-lg sm:text-xl leading-relaxed mx-auto max-w-xl">
               We are honored to invite you to join us in celebrating our wedding day at a grand gathering filled with love, laughter, and beautiful memories.
             </p>
           </div>
@@ -43,7 +43,7 @@ export const CeremonyDetails: React.FC = () => {
               </div>
               <div>
                 <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">Thursday, November 5</h4>
-                <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">The Year Two Thousand Twenty Six</p>
+                <p className="text-stone-800 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">The Year Two Thousand Twenty Six</p>
               </div>
             </div>
 
@@ -54,7 +54,7 @@ export const CeremonyDetails: React.FC = () => {
               </div>
               <div>
                 <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">05:00 PM Onwards</h4>
-                <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">Welcome & Arrival</p>
+                <p className="text-stone-800 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">Welcome & Arrival</p>
               </div>
             </div>
 
@@ -65,7 +65,7 @@ export const CeremonyDetails: React.FC = () => {
               </div>
               <div>
                 <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">Amagi Aria</h4>
-                <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">Kurana, Negombo, Sri Lanka</p>
+                <p className="text-stone-800 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">Kurana, Negombo, Sri Lanka</p>
               </div>
             </div>
 
@@ -76,8 +76,8 @@ export const CeremonyDetails: React.FC = () => {
               </div>
               <div>
                 <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">Celebration Reception</h4>
-                <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold mb-2">06:00 PM - 11:00 PM</p>
-                <p className="text-stone-500/90 font-serif italic text-base leading-relaxed">
+                <p className="text-stone-800 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold mb-2">06:00 PM - 11:00 PM</p>
+                <p className="text-stone-800 font-serif italic text-base leading-relaxed">
                   Followed by a celebratory dinner, cake cutting, and music festivities by the lagoon.
                 </p>
               </div>

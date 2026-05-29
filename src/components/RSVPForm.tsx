@@ -76,7 +76,7 @@ export const RSVPForm: React.FC = () => {
             Reserve <span className="italic font-light text-brand-primary">Your</span> Seat
           </h2>
           
-          <p className="text-stone-500/90 font-serif text-lg leading-relaxed mb-6">
+          <p className="text-stone-800 font-serif text-lg leading-relaxed mb-6">
             Your presence means the world to us. Please kindly let us know if you will be able to join our celebration.
           </p>
           <div className="w-12 h-[1px] bg-brand-primary/50 mx-auto lg:mx-0" />
@@ -97,7 +97,7 @@ export const RSVPForm: React.FC = () => {
                   <CheckCircle className="w-12 h-12 text-blue-500" />
                 </div>
                 <h3 className="text-4xl font-display text-stone-800 mb-4 tracking-tight drop-shadow-sm">With Gratitude</h3>
-                <p className="text-stone-500/90 leading-relaxed font-serif text-lg mb-8">
+                <p className="text-stone-800 leading-relaxed font-serif text-lg mb-8">
                   Your response has been warmly received. We cannot wait to celebrate with you!
                 </p>
                 <button
@@ -117,7 +117,7 @@ export const RSVPForm: React.FC = () => {
                 className="space-y-6 bg-white/40 p-8 sm:p-10 rounded-[2.5rem] border border-white shadow-[0_15px_30px_rgba(0,0,0,0.05)]"
               >
                 <div>
-                  <label className="block text-[10px] uppercase tracking-[0.2em] font-bold text-stone-500 mb-3 ml-2">Full Name</label>
+                  <label className="block text-[10px] uppercase tracking-[0.2em] font-bold text-stone-700 mb-3 ml-2">Full Name</label>
                   <input
                     required
                     type="text"
@@ -129,7 +129,7 @@ export const RSVPForm: React.FC = () => {
                 </div>
 
                 <div>
-                  <label className="block text-[10px] uppercase tracking-[0.2em] font-bold text-stone-500 mb-3 ml-2">Number of Guests</label>
+                  <label className="block text-[10px] uppercase tracking-[0.2em] font-bold text-stone-700 mb-3 ml-2">Number of Guests</label>
                   <div className="relative group">
                     <select
                       className="w-full bg-white/80 px-6 py-4 rounded-full border border-stone-200/60 focus:ring-2 focus:ring-brand-primary/30 focus:border-brand-primary-light/40 outline-none transition-all duration-300 appearance-none font-serif italic text-lg shadow-inner text-stone-700 cursor-pointer"
@@ -148,7 +148,7 @@ export const RSVPForm: React.FC = () => {
                 </div>
 
                 <div>
-                  <label className="block text-[10px] uppercase tracking-[0.2em] font-bold text-stone-500 mb-3 ml-2">Dietary Notes (Optional)</label>
+                  <label className="block text-[10px] uppercase tracking-[0.2em] font-bold text-stone-700 mb-3 ml-2">Dietary Notes (Optional)</label>
                   <textarea
                     placeholder="We'd love to know if you have any allergies..."
                     className="w-full bg-white/80 px-6 py-4 rounded-[2rem] border border-stone-200/60 focus:ring-2 focus:ring-brand-primary/30 focus:border-brand-primary-light/40 outline-none transition-all duration-300 h-28 resize-none font-serif italic text-lg shadow-inner placeholder:text-stone-300"
