@@ -29,7 +29,7 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
         >
           {/* Deep Cinematic Rose/Sakura Background */}
           <div className="absolute inset-0 bg-gradient-to-br from-[#0d131f] via-[#1e293b] to-[#020617]" />
-          <div className="absolute top-[-20%] right-[-10%] w-[100vw] h-[100vw] max-w-[1200px] max-h-[1200px] bg-[#d4af37]/10 blur-[150px] rounded-full opacity-60 pointer-events-none mix-blend-screen animate-pulse" style={{ animationDuration: '8s' }} />
+          <div className="absolute top-[-20%] right-[-10%] w-[100vw] h-[100vw] max-w-[1200px] max-h-[1200px] bg-[#3A86C8]/10 blur-[150px] rounded-full opacity-60 pointer-events-none mix-blend-screen animate-pulse" style={{ animationDuration: '8s' }} />
           <div className="absolute bottom-[-20%] left-[-10%] w-[80vw] h-[80vw] max-w-[1000px] max-h-[1000px] bg-[#7382a0]/30 blur-[150px] rounded-full opacity-50 pointer-events-none mix-blend-screen" />
 
           <FloatingPetals />
@@ -48,22 +48,22 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
             transition={{ duration: 1.5, ease: [0.22, 1, 0.36, 1] }}
           >
             {/* Envelope Back Base (Premium Sakura Texture) */}
-            <div className="absolute inset-0 bg-gradient-to-br from-[#99a4bc] to-[#53617e] shadow-[0_50px_100px_rgba(10,20,50,0.6)] rounded-xl border border-[#d4af37]/40 overflow-hidden">
+            <div className="absolute inset-0 bg-gradient-to-br from-[#99a4bc] to-[#53617e] shadow-[0_50px_100px_rgba(10,20,50,0.6)] rounded-xl border border-[#3A86C8]/40 overflow-hidden">
               <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] mix-blend-overlay opacity-20" />
               <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] mix-blend-overlay opacity-30" />
-              <div className="absolute inset-3 border-[1.5px] border-[#d4af37]/30 rounded-lg pointer-events-none" />
-              <div className="absolute inset-4 border border-[#d4af37]/10 rounded-lg pointer-events-none" />
+              <div className="absolute inset-3 border-[1.5px] border-[#3A86C8]/30 rounded-lg pointer-events-none" />
+              <div className="absolute inset-4 border border-[#3A86C8]/10 rounded-lg pointer-events-none" />
             </div>
 
             {/* Pull-out Arched Invitation Card - Modern Sri Lankan Design */}
             <motion.div
-              className="absolute left-3 right-3 sm:left-5 sm:right-5 top-6 sm:top-8 bottom-2 bg-gradient-to-b from-[#f8f9fb] to-[#eef2f7] shadow-[0_0_50px_rgba(0,0,0,0.2)] rounded-t-[4rem] sm:rounded-t-[6rem] flex flex-col items-center justify-start pt-6 sm:pt-10 text-center z-10 overflow-hidden border-t-[4px] sm:border-t-[6px] border-x-[4px] sm:border-x-[6px] border-[#d4af37]/30"
+              className="absolute left-3 right-3 sm:left-5 sm:right-5 top-6 sm:top-8 bottom-2 bg-gradient-to-b from-[#f8f9fb] to-[#eef2f7] shadow-[0_0_50px_rgba(0,0,0,0.2)] rounded-t-[4rem] sm:rounded-t-[6rem] flex flex-col items-center justify-start pt-6 sm:pt-10 text-center z-10 overflow-hidden border-t-[4px] sm:border-t-[6px] border-x-[4px] sm:border-x-[6px] border-[#3A86C8]/30"
               initial={{ y: "0%" }}
               animate={isOpened ? { y: "-88%", zIndex: 40, rotate: -1 } : {}}
               transition={{ delay: 1.5, duration: 2.5, ease: [0.16, 1, 0.3, 1] }}
             >
               {/* Card Inner Arch Border */}
-              <div className="absolute inset-2 border-[1.5px] border-[#d4af37]/60 rounded-t-[3.5rem] sm:rounded-t-[5.5rem] pointer-events-none" />
+              <div className="absolute inset-2 border-[1.5px] border-[#3A86C8]/60 rounded-t-[3.5rem] sm:rounded-t-[5.5rem] pointer-events-none" />
               <div className="absolute inset-3 border-[1px] border-[#7382a0]/20 rounded-t-[3.2rem] sm:rounded-t-[5.2rem] pointer-events-none" />
 
               {/* Kandyan border removed */}
@@ -78,24 +78,22 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
                   <Heart className="w-6 h-6 text-brand-gold-deep" />
                 </div>
 
-                <h2 className="text-3xl sm:text-5xl font-display font-medium text-[#4a5770] tracking-tight leading-[1.1] mb-2 sm:mb-3 drop-shadow-sm">
-                  Dimalka <br />
-                  <span className="text-xl sm:text-3xl text-[#d4af37] italic font-light my-1 block">&</span>
-                  Dinindu
+                <h2 className="text-2xl sm:text-4xl lg:text-5xl font-display font-medium text-[#4a5770] tracking-tight leading-[1.1] mb-2 sm:mb-3 drop-shadow-sm">
+                  Imosh & Hashini
                 </h2>
 
-                <div className="w-16 sm:w-24 h-[2px] bg-gradient-to-r from-transparent via-[#d4af37] to-transparent mx-auto my-3 sm:my-5" />
+                <div className="w-16 sm:w-24 h-[2px] bg-gradient-to-r from-transparent via-[#3A86C8] to-transparent mx-auto my-3 sm:my-5" />
 
                 <p className="text-[8px] sm:text-[11px] font-sans tracking-[0.3em] sm:tracking-[0.5em] uppercase text-[#5c6b8a] mb-2 sm:mb-3 font-bold leading-none">
                   Request the honor of your presence
                 </p>
                 <p className="text-base sm:text-2xl font-serif text-[#4a5770] tracking-[0.2em] mt-1 drop-shadow-sm leading-none font-semibold">
-                  20 • 08 • 2026
+                  05 • 11 • 2026
                 </p>
               </motion.div>
 
               {/* Subtle temple mural watermark inside */}
-              <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-[#d4af37]/10 rounded-full blur-3xl pointer-events-none" />
+              <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-[#3A86C8]/10 rounded-full blur-3xl pointer-events-none" />
               <div className="absolute bottom-4 opacity-10 w-full h-16 mix-blend-multiply" />
             </motion.div>
 
@@ -116,7 +114,7 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
                   <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] mix-blend-overlay opacity-30" />
                   <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/diagonal-striped-brick.png')] mix-blend-overlay opacity-10" />
                   {/* Gold edge trim on flap */}
-                  <div className="absolute bottom-0 left-0 w-full h-full border-b-[4px] border-r-[4px] border-[#d4af37] transform rotate-45 translate-y-1/2 scale-150 shadow-[0_0_10px_rgba(212,175,55,0.4)]" />
+                  <div className="absolute bottom-0 left-0 w-full h-full border-b-[4px] border-r-[4px] border-[#3A86C8] transform rotate-45 translate-y-1/2 scale-150 shadow-[0_0_10px_rgba(58,134,200,0.4)]" />
                   <div className="absolute bottom-0 left-0 w-full h-full border-b-[1px] border-r-[1px] border-[#1e293b]/40 transform rotate-45 translate-y-1/2 scale-150 mt-1 ml-1" />
                 </div>
               </div>
@@ -126,7 +124,7 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
                 className="absolute inset-0"
                 style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
               >
-                <div className="w-full h-full bg-gradient-to-t from-[#d4af37] to-[#8b6b15] border-t-2 border-[#53617e]" style={{ clipPath: 'polygon(0 0, 100% 0, 50% 100%)' }}>
+                <div className="w-full h-full bg-gradient-to-t from-[#3A86C8] to-[#1A3E60] border-t-2 border-[#53617e]" style={{ clipPath: 'polygon(0 0, 100% 0, 50% 100%)' }}>
                   {/* Kandyan floral pattern lining */}
                   {/* Kandyan floral pattern lining removed */}
                   <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/paper.png')] mix-blend-overlay opacity-40" />
@@ -162,7 +160,7 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
 
             {/* Traditional Ornamental Band/Wrap - Gold Metallic */}
             <motion.div
-              className="absolute top-[35%] left-[-2%] w-[104%] h-[20%] bg-gradient-to-r from-[#8a6811] via-[#d4af37] to-[#8a6811] z-25 pointer-events-none shadow-[0_10px_30px_rgba(50,0,10,0.5)] border-y-[3px] border-[#fde592] flex items-center justify-center overflow-hidden"
+              className="absolute top-[35%] left-[-2%] w-[104%] h-[20%] bg-gradient-to-r from-[#1A3E60] via-[#3A86C8] to-[#1A3E60] z-25 pointer-events-none shadow-[0_10px_30px_rgba(50,0,10,0.5)] border-y-[3px] border-[#D0E8FD] flex items-center justify-center overflow-hidden"
               initial={{ opacity: 1 }}
               animate={isOpened ? { opacity: 0, scale: 1.05 } : {}}
               transition={{ duration: 0.6, ease: "easeOut" }}
@@ -192,20 +190,14 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
                   <div className="absolute inset-0 rounded-full bg-gradient-to-br from-brand-primary-muted via-brand-primary to-brand-primary-deep border border-brand-primary-deep shadow-[inset_0_4px_10px_rgba(70,130,180,0.8),inset_0_-4px_15px_rgba(29,53,87,0.9)]" />
 
                   {/* Wax ridge ring - Gold infused edge */}
-                  <div className="absolute inset-2 sm:inset-3 rounded-full border-[3px] border-[#d4af37]/60 shadow-[inset_0_2px_5px_rgba(50,0,10,0.8),0_2px_4px_rgba(212,175,55,0.4)] mix-blend-screen" />
+                  <div className="absolute inset-2 sm:inset-3 rounded-full border-[3px] border-[#3A86C8]/60 shadow-[inset_0_2px_5px_rgba(26,62,96,0.8),0_2px_4px_rgba(58,134,200,0.4)] mix-blend-screen" />
 
                   {/* Decorative Outer Border Detail for the Seal */}
-                  <div className="absolute inset-1 rounded-full border-[1.5px] border-dotted border-[#d4af37]/80 pointer-events-none animate-[spin_60s_linear_infinite]" />
+                  <div className="absolute inset-1 rounded-full border-[1.5px] border-dotted border-[#3A86C8]/80 pointer-events-none animate-[spin_60s_linear_infinite]" />
 
                   <div className="relative flex flex-col items-center justify-center translate-y-[-2px]">
-                    <span className="text-[#d4af37] font-serif text-3xl sm:text-4xl italic tracking-tighter drop-shadow-[0_2px_4px_rgba(50,0,10,0.9)]">
-                      D
-                    </span>
-                    <span className="text-[#d4af37]/70 font-serif text-sm sm:text-base mx-0.5 font-light drop-shadow-[0_2px_4px_rgba(50,0,10,0.9)] my-[-6px]">
-                      &
-                    </span>
-                    <span className="text-[#d4af37] font-serif text-3xl sm:text-4xl italic tracking-tighter drop-shadow-[0_2px_4px_rgba(50,0,10,0.9)]">
-                      D
+                    <span className="text-[#3A86C8] font-serif text-xl sm:text-2xl italic tracking-tighter drop-shadow-[0_2px_4px_rgba(50,0,10,0.9)]">
+                      I & H
                     </span>
                   </div>
 
@@ -228,13 +220,13 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
               >
                 <div className="flex flex-col items-center gap-2">
                   <p className="text-[#fffdf9] font-serif italic text-2xl sm:text-4xl font-light tracking-wide text-shadow-xl drop-shadow-[0_8px_16px_rgba(10,20,50,0.8)]">
-                    Royal Sri Lankan Invitation
+                    Wedding Invitation
                   </p>
-                  <p className="text-[#d4af37] font-sans text-[10px] sm:text-xs tracking-[0.5em] uppercase font-bold drop-shadow-md">
+                  <p className="text-[#3A86C8] font-sans text-[10px] sm:text-xs tracking-[0.5em] uppercase font-bold drop-shadow-md">
                     Break the seal to reveal
                   </p>
                 </div>
-                <div className="w-[1.5px] h-16 sm:h-20 bg-gradient-to-b from-[#d4af37] to-transparent animate-[bounce_2s_infinite] shadow-[0_0_20px_rgba(212,175,55,0.6)]" />
+                <div className="w-[1.5px] h-16 sm:h-20 bg-gradient-to-b from-[#3A86C8] to-transparent animate-[bounce_2s_infinite] shadow-[0_0_20px_rgba(58,134,200,0.6)]" />
               </motion.div>
             )}
           </AnimatePresence>

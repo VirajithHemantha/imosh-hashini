@@ -3,12 +3,12 @@ import { motion, AnimatePresence } from 'motion/react';
 import { X, ZoomIn } from 'lucide-react';
 
 const images = [
-  { id: 1, url: '/pre/gallery-1.jpg', fallback: 'https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=800&auto=format&fit=crop', title: 'The Beginning' },
-  { id: 2, url: '/pre/gallery-2.jpg', fallback: 'https://images.unsplash.com/photo-1522673607200-164d1f624698?q=80&w=800&auto=format&fit=crop', title: 'Our Journey' },
-  { id: 3, url: '/pre/gallery-3.jpg', fallback: 'https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80&w=800&auto=format&fit=crop', title: 'A Thousand Words' },
-  { id: 4, url: '/pre/gallery-4.jpg', fallback: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=800&auto=format&fit=crop', title: 'Endless Love' },
-  { id: 5, url: '/pre/gallery-5.jpg', fallback: 'https://images.unsplash.com/photo-1519225421980-715cb02151ff?q=80&w=800&auto=format&fit=crop', title: 'Forever Together' },
-  { id: 6, url: '/pre/gallery-6.jpg', fallback: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=800&auto=format&fit=crop', title: 'Love Always' },
+  { id: 1, url: '/pre/gallery-1.jpg', fallback: 'https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=800&auto=format&fit=crop', title: 'Beginning of Forever' },
+  { id: 2, url: '/pre/gallery-2.jpg', fallback: 'https://images.unsplash.com/photo-1522673607200-164d1f624698?q=80&w=800&auto=format&fit=crop', title: 'Moments of Love' },
+  { id: 3, url: '/pre/gallery-3.jpg', fallback: 'https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80&w=800&auto=format&fit=crop', title: 'A Perfect Pair' },
+  { id: 4, url: '/pre/gallery-4.jpg', fallback: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=800&auto=format&fit=crop', title: 'Joyful Hearts' },
+  { id: 5, url: '/pre/gallery-5.jpg', fallback: 'https://images.unsplash.com/photo-1519225421980-715cb02151ff?q=80&w=800&auto=format&fit=crop', title: 'Tethered Souls' },
+  { id: 6, url: '/pre/gallery-6.jpg', fallback: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=800&auto=format&fit=crop', title: 'United in Love' },
 ];
 
 export const Gallery: React.FC = () => {
@@ -48,11 +48,11 @@ export const Gallery: React.FC = () => {
         >
           <div className="inline-flex items-center gap-4 mb-4 sm:mb-6 justify-center">
             <div className="w-12 sm:w-24 h-[1px] bg-gradient-to-r from-transparent to-brand-gold-deep/60" />
-            <span className="text-brand-gold-deep uppercase tracking-[0.5em] sm:tracking-[0.6em] text-[10px] sm:text-[11px] font-bold font-sans drop-shadow-sm">A Lifetime OF</span>
+            <span className="text-brand-gold-deep uppercase tracking-[0.5em] sm:tracking-[0.6em] text-[10px] sm:text-[11px] font-bold font-sans drop-shadow-sm">Beautiful Moments of</span>
             <div className="w-12 sm:w-24 h-[1px] bg-gradient-to-l from-transparent to-brand-gold-deep/60" />
           </div>
           <h2 className="text-5xl sm:text-7xl lg:text-[5.5rem] font-display text-stone-800 tracking-tight drop-shadow-sm leading-tight">
-            Our <span className="italic font-light text-brand-gold-deep">Gallery</span>
+            Our Wedding <span className="italic font-light text-brand-gold-deep">Gallery</span>
           </h2>
         </motion.div>
       </div>
